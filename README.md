@@ -1,49 +1,19 @@
-🧾 Data Preprocessing Pipeline
-This project focuses on building a robust data preprocessing pipeline to prepare datasets for machine learning. It covers handling missing values, outlier treatment, feature scaling, and categorical data imputation. This pipeline ensures your data is clean, consistent, and ready for modeling or analysis.
+# 🛠️ Data Preprocessing Pipeline
 
-🚀 Features
-Clean and preprocess raw data
+This project demonstrates a structured data preprocessing pipeline for cleaning and preparing datasets for machine learning models.
 
-Handle missing values in both numeric and categorical features
+## 🚀 Features
 
-Detect and treat outliers using the IQR method
+- Handling missing values:
+  - Numeric features filled with mean
+  - Categorical features filled with mode
+- Outlier detection and handling using the IQR (Interquartile Range) method
+- Normalization of numeric features using StandardScaler
+- Flexible design to work on any dataset
 
-Normalize numerical features using StandardScaler
+## 📂 Project Structure
 
-Prepare consistent, clean datasets for downstream machine learning tasks
+- `data_preprocessing_pipeline.py` – Python script containing the preprocessing function
+- `Data preprocessing.csv` – Sample input data
+- `README.md` – Documentation
 
-📊 Project Workflow
-🔹 Data Preprocessing
-Handle missing values:
-
-Numeric: Filled with mean
-
-Categorical: Filled with mode
-
-Detect and treat outliers:
-
-Use Interquartile Range (IQR)
-
-Replace outliers with mean values
-
-Normalize numeric features:
-
-Standardization using Scikit-learn’s StandardScaler
-
-🔹 (Optional Extension)
-Although this repo focuses on preprocessing, it's designed to fit seamlessly into broader machine learning workflows including:
-
-Feature selection
-
-EDA integration
-
-Model building and evaluation
-
-🧰 Technologies Used
-Python
-
-Pandas
-
-NumPy
-
-Scikit-learn
