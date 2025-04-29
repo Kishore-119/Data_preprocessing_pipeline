@@ -17,3 +17,11 @@ This project demonstrates a structured data preprocessing pipeline for cleaning 
 - `Data preprocessing.csv` – Sample input data
 - `README.md` – Documentation
 
+##🧰 Technologies Used
+
+- Python 
+- Pandas
+- NumPy
+- Scikit-learn
+
+
